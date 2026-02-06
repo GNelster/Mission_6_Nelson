@@ -1,4 +1,4 @@
-namespace Mission_6_Assignment.Models;
+namespace Mission_6_Nelson.Models;
 
 public class ErrorViewModel
 {

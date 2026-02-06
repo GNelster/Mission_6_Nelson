@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Mission_6_Assignment.Models;
+using Mission_6_Nelson.Models;
 
-namespace Mission_6_Assignment.Controllers;
+namespace Mission_6_Nelson.Controllers;
 
 public class HomeController : Controller
 {
@@ -11,7 +11,7 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult GetToKnowJoel()
     {
         return View();
     }

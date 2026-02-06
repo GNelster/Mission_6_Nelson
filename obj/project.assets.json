@@ -1,0 +1,75 @@
+{
+  "version": 3,
+  "targets": {
+    "net10.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net10.0": []
+  },
+  "packageFolders": {
+    "/Users/gnelman/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/gnelman/Documents/BYU/IS JUNIOR CORE/Winter 2026/IS 413 - Application Dev/Mission 6 Assignment/Mission_6_Assignment/Mission_6_Assignment/Mission_6_Assignment.csproj",
+      "projectName": "Mission_6_Assignment",
+      "projectPath": "/Users/gnelman/Documents/BYU/IS JUNIOR CORE/Winter 2026/IS 413 - Application Dev/Mission 6 Assignment/Mission_6_Assignment/Mission_6_Assignment/Mission_6_Assignment.csproj",
+      "packagesPath": "/Users/gnelman/.nuget/packages/",
+      "outputPath": "/Users/gnelman/Documents/BYU/IS JUNIOR CORE/Winter 2026/IS 413 - Application Dev/Mission 6 Assignment/Mission_6_Assignment/Mission_6_Assignment/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/gnelman/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net10.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net10.0": {
+        "targetAlias": "net10.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,7 +1,16 @@
+using Mission_6_Nelson.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add services to connect to the Database.
+builder.Services.AddDbContext<MovieFormContext>(options =>
+{
+    options.UseSqlite(builder.Configuration["ConnectionStrings:MovieForm"]);
+});
 
 var app = builder.Build();
 
